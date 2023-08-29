@@ -1,0 +1,13 @@
+import java.time.Instant
+
+jib {
+    from {
+        image = "eclipse-temurin:17-focal"
+    }
+    to {
+        image = "api-gateway:latest"
+    }
+    container {
+        creationTime = Instant.now().toString()
+    }
+}
