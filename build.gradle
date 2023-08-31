@@ -43,7 +43,7 @@ dependencies {
     implementation "io.micrometer:micrometer-tracing-bridge-otel"
     implementation "io.opentelemetry:opentelemetry-exporter-otlp"
 
-    implementation 'net.logstash.logback:logstash-logback-encoder:7.2'
+    implementation 'net.logstash.logback:logstash-logback-encoder:7.4'
 
     implementation("io.netty:netty-resolver-dns-native-macos:4.1.75.Final") {
         artifact {
