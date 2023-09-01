@@ -24,3 +24,6 @@ spring:
     import: "configserver:http://config-server:1234"
   main:
     allow-bean-definition-overriding: true
+
+server:
+  port: ${PORT:8080}
