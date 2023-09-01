@@ -8,6 +8,10 @@ spring:
       config:
         format: YAML
         enabled: false
+    gateway:
+      discovery:
+        locator:
+          enabled: true
     config:
       fail-fast: true
       retry:
