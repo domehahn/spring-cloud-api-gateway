@@ -37,3 +37,5 @@ out/
 .vscode/
 
 tmp/
+/src/main/resources/sslgateway.jks
+/src/main/resources/sslgateway.p12
