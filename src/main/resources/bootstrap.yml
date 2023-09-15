@@ -24,6 +24,7 @@ spring:
     import: "configserver:http://config-server:1234"
   main:
     allow-bean-definition-overriding: true
-
+logging:
+  config: ${spring.cloud.config.uri}/${spring.application.name}/${spring.profiles.active}/main/${spring.application.name}/${spring.profiles.active}/logback-spring.xml
 server:
-  port: ${PORT:8080}
+  port: ${PORT:18080}
