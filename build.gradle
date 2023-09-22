@@ -41,6 +41,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server'
     implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 
+    implementation 'org.yaml:snakeyaml:2.2'
+
     runtimeOnly 'io.micrometer:micrometer-registry-prometheus'
 
     implementation "io.micrometer:micrometer-tracing-bridge-otel"
